@@ -2,13 +2,12 @@
 `jeonghyeop Kim` (jeonghyeop.kim@gmail.com) \
 OCT 28, 2021
 
-##### NOTE ALL of the Sparse codes are available through this repository.
-##### If you need the entire set, email me (jeonghyeop.kim@gmail.com). 
-##### This repo is specifically designed for some of the Sparse codes 
-##### that are used to calculate seasonal strain anomalies.
+##### NOTE: All of the Sparse codes are NOT available through this repository.
+ If you need the entire set, email me (jeonghyeop.kim@gmail.com). \
+ This repo archives some of the Sparse codes that are used to calculate seasonal strain anomalies.
 
-**See the full list of references of the Sparse codes 
-in the section 8 of the file `sparse_code_tutorial_2021.pdf`**
+<font color="red">**See the full list of references of the Sparse codes 
+in the section 8 of the file `sparse_code_tutorial_2021.pdf`**</font>
 
 ### HOW TO USE this repository 
 
