@@ -12,8 +12,8 @@ OCT 28, 2021
 ### HOW TO USE this repository 
 
 - Clone the entire repository: *git clone https://github.com/jey-kim/repo_sparse_codes.git* 
-- Go to the cloned directory and run **`RUN_ME.sh`** *sh RUN_ME.sh* 
->    This RUN_ME.sh compiles the Sparse codes.
+- Go to the cloned directory and run **`run_this.sh`** *sh run_this.sh* 
+>    Running run_this.sh will compile the Sparse codes.
 - Path the directory in .bash_profile, .bashrc, or .zshrc
 >    *export PATH="/path/to/the/directory:$PATH"*    
 >    *source .bash_profile* 
