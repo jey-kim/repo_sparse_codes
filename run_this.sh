@@ -39,7 +39,7 @@ elif [ "$i" == "$prepare_finer_sparse_grid" ]; then
     gfortran "$i" splines.f -o prepare_finer_sparse_grid -ffixed-line-length-none 
 else
     echo "$i" "->" "$output"
-    gfortran "$i" -o "$output" -ffixed-line-length-none -fdec-math
+    gfortran "$i" -o "$output" -ffixed-line-length-none -fdec-math -std=legacy
 fi
 done
 
