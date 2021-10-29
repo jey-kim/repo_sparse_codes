@@ -75,20 +75,20 @@ zshrc=~/.zshrc
 
 if test -f "$bashprofile"; then
     echo "Setting PATH permanently in the existing file ~/.bash_profile"
-    sudo echo $"export PATH=\$PATH:$(pwd)" >> ~/.bash_profile
-    sudo source ~/.bash_profile
+    echo $"export PATH=\$PATH:$(pwd)" >> ~/.bash_profile
+    source ~/.bash_profile
 elif test -f "$bashrc"; then
     echo "Setting PATH permanently in the existing file ~/.bashrc"
-    sudo echo $"export PATH=\$PATH:$(pwd)" >> ~/.bashrc
-    sudo source ~/.bashrc
+    echo $"export PATH=\$PATH:$(pwd)" >> ~/.bashrc
+    source ~/.bashrc
 elif test -f "$zshrc"; then
     echo "Setting PATH permanently in the existing file ~/.zshrc"
-    sudo echo $"export PATH=\$PATH:$(pwd)" >> ~/.zshrc
-    sudo source ~/.zshrc
+    echo $"export PATH=\$PATH:$(pwd)" >> ~/.zshrc
+    source ~/.zshrc
 else
     dir=`pwd`
     echo ~/.bashrc, ~/.bash_profile, or ~/.zshrc exist. 
     echo Creating ~/.bashrc and setting PATH permanently in the created file
-    sudo echo $"export PATH=\$PATH:$(pwd)" > ~/.bashrc
-    sudo source ~/.bashrc
+    echo $"export PATH=\$PATH:$(pwd)" > ~/.bashrc
+    source ~/.bashrc
 fi
