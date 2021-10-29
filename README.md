@@ -18,3 +18,6 @@ OCT 28, 2021
 >    *export PATH="/path/to/the/directory:$PATH"*    
 >    *source .bash_profile* 
 
+
+**`run_this.sh` works for AWS EC2 servers (Amazon Linux 2)** (tested 10.29.2021)
+**`run_this.sh` also works for Mac OS X (both intel and M1 chips)** (tested 10.29.2021)

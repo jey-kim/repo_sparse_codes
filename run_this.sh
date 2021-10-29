@@ -59,7 +59,7 @@ output="${j%.*}"
 
 echo -------------------------------
 echo "$j" "->" "$output"
-gcc "$j" -o "$output"
+gcc "$j" -o "$output" -lm
 done
 
 echo -------------------------------
