@@ -13,10 +13,8 @@ OCT 28, 2021
 
 - Clone the entire repository: *git clone https://github.com/jey-kim/repo_sparse_codes.git* 
 - Go to the cloned directory and run **`run_this.sh`** *sh run_this.sh* 
->    Running run_this.sh will compile the Sparse codes.
-- Path the directory in .bash_profile, .bashrc, or .zshrc
->    *export PATH="/path/to/the/directory:$PATH"*    
->    *source .bash_profile* 
+>    Running run_this.sh will compile the Sparse codes. \
+>    This will also add the directory to PATH permanently (in .bash_profile, .bashrc, or .zshrc)
 
 
 **`run_this.sh` works for AWS EC2 servers (Amazon Linux 2)** (tested 10.29.2021)
