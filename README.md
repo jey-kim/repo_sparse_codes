@@ -11,6 +11,11 @@ OCT 28, 2021
 
 ### HOW TO USE this repository 
 
+
+- **gfortran 7+** and **gcc** are required!
+- gfortran < v7 will give errors related to -fdec*
+- If gcc gives an error about 'stdio.h', something may be wrong with **XCODE**.
+
 - Clone the entire repository: *git clone https://github.com/jey-kim/repo_sparse_codes.git* 
 - Go to the cloned directory and run **`run_this.sh`** *sh run_this.sh* 
 >    Running run_this.sh will compile the Sparse codes. \
@@ -20,4 +25,5 @@ OCT 28, 2021
 **`run_this.sh` works for AWS EC2 servers (Amazon Linux 2)** (tested 10.29.2021)
 **`run_this.sh` also works for Mac OS X (both intel and M1 chips)** (tested 10.29.2021)
 
-**`11/5/2021`**
+
+**`12/23/2021`**
